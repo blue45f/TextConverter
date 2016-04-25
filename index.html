@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="TextConverter.js"></script>
+</head>
+<body>
+www.naver.com
+</body>
+<script>
+    TextConverter.convertElement(document.body);
+    TextConverter.convertHTML({});
+    TextConverter.convertString({});
+    TextConverter.convertTextNode(new Text(`www.naver.com`));
+    TextConverter.createHTMLDocument({});
+
+    var textConverter = new TextConverter();
+    textConverter.convertElement(document.body);
+</script>
+</html>
